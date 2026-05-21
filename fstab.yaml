@@ -1,0 +1,5 @@
+mountpoints:
+  /:
+    url: "https://author-p149556-e1749225.adobeaemcloud.com/bin/franklin.delivery/dharmeshkumar-rupani/eds-with-adobe-skills/main"
+    type: "markup"
+    suffix: ".html"
