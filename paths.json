@@ -1,0 +1,10 @@
+{
+  "mappings": [
+    "/content/eds-with-adobe-skills/:/",
+    "/content/eds-with-adobe-skills/configuration:/.helix/config.json",
+    "/content/eds-with-adobe-skills/metadata:/metadata.json"
+  ],
+  "includes": [
+    "/content/eds-with-adobe-skills/"
+  ]
+}
