@@ -41,17 +41,11 @@ export default function parse(element, { document }) {
   const awardBadge = element.querySelector('.top-hint-award');
 
   // --- Build cells array matching UE model structure ---
-  // UE Model: image (reference), imageAlt (text), text (richtext)
-  // Row 1: Background image (single cell)
-  // Row 2: All text content in a single cell (richtext)
+  // UE Model: text (richtext) - single field, background image handled via CSS
+  // Row 1: All text content in a single cell (richtext)
   const cells = [];
 
-  // Row 1: Background image
-  if (bgImage) {
-    cells.push([[bgImage]]);
-  }
-
-  // Row 2: Text content - all combined into a single cell container
+  // Row 1: Text content - all combined into a single cell container
   const textContainer = document.createElement('div');
 
   if (heading) {

@@ -50,9 +50,6 @@ var CustomImportScript = (() => {
     const platformLinks = element.querySelector(".top-hint .js-pc.body-3, .top-hint-item-1 .js-pc.body-3");
     const awardBadge = element.querySelector(".top-hint-award");
     const cells = [];
-    if (bgImage) {
-      cells.push([[bgImage]]);
-    }
     const textContainer = document.createElement("div");
     if (heading) {
       textContainer.appendChild(heading);
