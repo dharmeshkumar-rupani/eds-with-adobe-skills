@@ -1,0 +1,73 @@
+.cards-feature {
+  padding: 32px 0;
+}
+
+.cards-feature > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.cards-feature > ul > li {
+  border: 1px solid rgb(255 255 255 / 15%);
+  border-radius: 8px;
+  background-color: rgb(255 255 255 / 5%);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cards-feature .cards-feature-card-image {
+  line-height: 0;
+  flex-shrink: 0;
+}
+
+.cards-feature > ul > li img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  aspect-ratio: auto;
+}
+
+.cards-feature .cards-feature-card-body {
+  margin: 0;
+}
+
+.cards-feature .cards-feature-card-body h5 {
+  color: #fff;
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.cards-feature .cards-feature-card-body p {
+  color: #b0b0b0;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 0 12px;
+}
+
+.cards-feature .cards-feature-card-body a {
+  color: #6cb4ff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.cards-feature .cards-feature-card-body a:hover {
+  text-decoration: underline;
+}
+
+@media (width >= 600px) {
+  .cards-feature > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 900px) {
+  .cards-feature > ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

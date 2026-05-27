@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-media",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-21T21:50:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.avg.com/en-us/homepage",
+    "originPage": "AVG Homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "product-feature",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image column + text column with heading + description + CTA",
+    "buttonCount": 2,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "product feature sections with device screenshots",
+      "side-by-side image and text content",
+      "media-style content showcases"
+    ],
+    "notSuitableFor": [
+      "multi-column text-only layouts",
+      "three or more column grids",
+      "comparison layouts"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/en-us/homepage"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-21T21:50:00.000Z"
+  }
+}

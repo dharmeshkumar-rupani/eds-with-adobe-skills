@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "projectType": "xwalk"
+  },
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": ["https://www.avg.com/en-us/homepage"],
+      "description": "AVG main homepage with hero, product features, and call-to-action sections",
+      "blocks": [
+        {
+          "name": "hero-product",
+          "instances": ["#top"]
+        },
+        {
+          "name": "cards-stripe",
+          "instances": [".section-usp-stripe"]
+        },
+        {
+          "name": "columns-media",
+          "instances": ["#media-1", "#media-2", "#media-3"]
+        },
+        {
+          "name": "cards-awards",
+          "instances": ["#awards-card"]
+        },
+        {
+          "name": "cards-feature",
+          "instances": [".inverse.included"]
+        },
+        {
+          "name": "carousel-blog",
+          "instances": [".carousel-slider.blog-slider"]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1-hero",
+          "name": "Hero Section",
+          "selector": "#top",
+          "style": "dark",
+          "blocks": ["hero-product"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2-usp",
+          "name": "USP Stripe Section",
+          "selector": ".section-usp-stripe",
+          "style": null,
+          "blocks": ["cards-stripe"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3-free-antivirus",
+          "name": "Free Antivirus Feature",
+          "selector": "#media-1",
+          "style": null,
+          "blocks": ["columns-media"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4-awards",
+          "name": "Awards Section",
+          "selector": "#awards-card",
+          "style": "grey",
+          "blocks": ["cards-awards"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5-internet-security",
+          "name": "Internet Security Feature",
+          "selector": "#media-2",
+          "style": null,
+          "blocks": ["columns-media"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-6-ultimate",
+          "name": "AVG Ultimate Section",
+          "selector": ["#media-3", ".inverse.included"],
+          "style": "dark",
+          "blocks": ["columns-media", "cards-feature"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-7-blog",
+          "name": "Blog Posts Section",
+          "selector": "#blogposts",
+          "style": null,
+          "blocks": ["carousel-blog"],
+          "defaultContent": ["#blogposts .row.blog .title h2", "#blogposts .row.blog .link-all a"]
+        },
+        {
+          "id": "section-8-teaser",
+          "name": "CTA Teaser Section",
+          "selector": "#teaser",
+          "style": "green",
+          "blocks": [],
+          "defaultContent": ["#teaser .ico img", "#teaser .ico p", "#teaser .js-pc a"]
+        }
+      ]
+    }
+  ]
+}

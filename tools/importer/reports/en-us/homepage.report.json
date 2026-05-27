@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://www.avg.com/en-us/homepage",
+  "path": "en-us/homepage",
+  "timestamp": "2026-05-21T22:07:00.506Z",
+  "title": "AVG 2026 | FREE Antivirus, VPN & TuneUp for All Your Devices",
+  "template": "homepage",
+  "blocks": [
+    "hero-product",
+    "cards-stripe",
+    "columns-media",
+    "columns-media",
+    "columns-media",
+    "cards-awards",
+    "cards-feature",
+    "carousel-blog"
+  ]
+}
