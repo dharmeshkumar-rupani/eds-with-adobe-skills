@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-awards",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-21T21:50:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.avg.com/en-us/homepage",
+    "originPage": "AVG Homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "awards-showcase",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "heading + description + award badges (image + year + title)",
+    "buttonCount": 0,
+    "imageCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "awards and accolades showcase sections",
+      "trust badge displays",
+      "certification and recognition areas"
+    ],
+    "notSuitableFor": [
+      "product feature cards",
+      "blog article cards",
+      "team member cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/en-us/homepage"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-21T21:50:00.000Z"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-stripe",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-21T21:50:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.avg.com/en-us/homepage",
+    "originPage": "AVG Homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "usp-stripe",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "icon + short text per item",
+    "buttonCount": 0,
+    "imageCount": 4
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "USP/value proposition strips",
+      "compact horizontal icon+text lists",
+      "trust indicator rows"
+    ],
+    "notSuitableFor": [
+      "full image cards",
+      "detailed product cards with descriptions",
+      "cards with CTAs"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/en-us/homepage"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-21T21:50:00.000Z"
+  }
+}

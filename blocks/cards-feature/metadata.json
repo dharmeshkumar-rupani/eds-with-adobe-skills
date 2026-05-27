@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-feature",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-21T21:50:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.avg.com/en-us/homepage",
+    "originPage": "AVG Homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "compact",
+    "purpose": "product-feature",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "icon + product name + description + learn more link per card",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "product feature grids with icons",
+      "included features/services listing",
+      "product bundle breakdowns"
+    ],
+    "notSuitableFor": [
+      "blog article cards with large images",
+      "team member cards",
+      "pricing cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/en-us/homepage"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-21T21:50:00.000Z"
+  }
+}

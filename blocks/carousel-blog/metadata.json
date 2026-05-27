@@ -1,0 +1,39 @@
+{
+  "variantName": "carousel-blog",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-05-21T21:50:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.avg.com/en-us/homepage",
+    "originPage": "AVG Homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "blog-articles",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "thumbnail image + article title + excerpt + read more link per slide",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "blog article carousels",
+      "news/updates sliders",
+      "content recommendation carousels"
+    ],
+    "notSuitableFor": [
+      "hero image sliders",
+      "testimonial carousels",
+      "product gallery carousels"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/en-us/homepage"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-21T21:50:00.000Z"
+  }
+}
